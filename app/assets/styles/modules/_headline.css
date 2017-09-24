@@ -36,12 +36,16 @@
 	strong {
 		font-weight: 400;
 	}
-	&--margin-b-small {
+	&--b-margin-small {
 		margin-bottom: .5em;
 	}
 
-	&--margin-b-large {
+	&--b-margin-large {
 		margin-bottom: 1.6em;
+	}
+
+	&--no-t-margin {
+		margin-top: 0;
 	}
 
 }
