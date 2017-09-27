@@ -1088,3 +1088,23 @@ a {
 		height: 42px;
 		background-position: 0 99.72674418604652%;
 	}
+
+.site-footer {
+	background-color: #2f5572;
+	color: white;
+	text-align: center;	
+}
+
+.site-footer__text {
+	 	display: block;
+	 	margin-bottom: 1rem;
+	 	font-weight: 200;
+	 }
+
+@media (min-width: 800px) {
+
+.site-footer__text {
+	 		display: inline-block;
+	 		margin: 0 1.4rem 0 0
+	 }
+	}
